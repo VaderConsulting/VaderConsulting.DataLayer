@@ -14,6 +14,10 @@ C# .NET 4.0 class library: IDataLayer contract, DataLayer base with ObjectChange
 
 Open `VaderConsulting.DataLayer.csproj` in Visual Studio 2013 or later (ToolsVersion 12.0). There is no `.sln` in this folder. The project references sibling folders `..\DependencyCollection\VaderConsulting.Dependency.csproj` and `..\VaderConsulting.Helper\VaderConsulting.Helper.csproj`.
 
+## Requirements
+
+- Visual Studio 2013 or later, .NET Framework 4.0
+
 ## Attribution and provenance
 
 Working copy from Dave Robinson's OneDrive Historical Dev folder `VaderConsulting.DataLayer`. Assembly title/product `DataLayer`; copyright `Copyright ©  2015`; company empty. Namespace `VaderConsulting.DataLayer`. `packages.config` lists AsyncBridge 0.1.1 (referenced by the `.csproj`). `App.config` has leftover Entity Framework 6 LocalDB section, not referenced by the project.
